@@ -1,0 +1,38 @@
+.about-cont {
+	margin-bottom: 12.2rem;
+}
+
+.about-h2 {
+	margin: 0;
+	font-size: 3rem;
+	line-height: 0.6;
+}
+.about-underline {
+	width: 8rem;
+	margin: 1.5rem 0;
+	margin-bottom: 2rem;
+	border-bottom: 0.3rem solid #ab7a5f;
+}
+.about-para {
+	line-height: 2;
+	color: #617d98;
+}
+@media screen and (max-width: 991px) {
+	.about-mobile {
+	  flex-direction: column;
+	}
+	.about-image{
+		margin-right: 0 !important; 
+	}
+	.about-main-right{
+		margin-top: 3rem;
+		margin-left: 0 !important; 
+	}
+	.about-h2{
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+	.about-underline{
+		margin: auto;
+	}
+  }

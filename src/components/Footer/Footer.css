@@ -1,0 +1,9 @@
+.footer-cont{
+    background: #000;
+    text-align: center;
+    color: #fff;
+    padding: 1.5rem;
+}
+.footer-cont p span{
+    color: #ab7a5f;
+}

@@ -1,0 +1,91 @@
+.custom-cont {
+	padding: 2rem 0px;
+	background: #eaded7;
+	position: relative;
+}
+.custom-top {
+	width: 90%;
+	margin: auto;
+	margin-bottom: 15rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.custom-left {
+	margin: 0;
+	font-size: 2rem;
+	font-weight: bold;
+}
+.custom-left:last-child {
+	line-height: 1.8rem;
+}
+.custom-right {
+	margin: 0;
+	color: #936a53;
+	line-height: 2rem;
+	font-size: 1rem;
+}
+.card-cont {
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+
+	position: absolute;
+	top: 10rem;
+	left: 5%;
+	margin: 3rem auto;
+}
+.card {
+	width: 25%;
+	background: #c5a491;
+	text-align: center;
+	padding: 2.5rem 2rem;
+	border-radius: 0.25rem;
+	margin-top: 1rem;
+}
+.custom-icon-cont {
+	background: #eaded7;
+	width: 4.5rem;
+	height: 4.5rem;
+	margin: auto;
+	border-radius: 50%;
+}
+.custom-icon {
+	font-size: 2rem;
+	margin: 0;
+	line-height: 5rem;
+}
+.custom-name {
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+	font-size: 1.2rem;
+}
+.custom-text {
+	font-size: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+	.custom-top {
+		flex-direction: column;
+		margin-bottom: 0;
+	}
+	.top-two {
+		margin-top: 1rem;
+	}
+	.card-cont {
+		justify-content: space-around;
+
+		position: static;
+	}
+	.card {
+		width: 20rem;
+	}
+}
+
+@media screen and (max-width: 845px) {
+	.card {
+		width: auto;
+	}
+}

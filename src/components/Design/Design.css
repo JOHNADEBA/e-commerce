@@ -1,0 +1,87 @@
+.design-cont {
+	width: 90%;
+	margin: 10rem auto;
+	display: flex;
+	justify-content: space-between;
+}
+.design-left {
+	margin-top: 1rem;
+	margin-right: 1rem;
+	width: 50%;
+}
+.design-left h2 {
+	font-size: 3rem;
+	margin: 0;
+}
+.last-header {
+	line-height: 2rem;
+}
+.design-left p {
+	font-size: 1.2rem;
+	margin: 2rem 2rem 0 0;
+	color: #617d98;
+	line-height: 2.3rem;
+}
+
+.design-right {
+	position: relative;
+	width: 50%;
+}
+.right-small {
+	width: 17rem;
+	border-radius: 0.3rem;
+	position: absolute;
+	bottom: 0;
+	left: -2.2rem;
+}
+.right-big {
+	float: right;
+	width: 80%;
+	height: 30rem;
+	border-radius: 0.3rem;
+}
+
+.btn {
+	margin-top: 2rem;
+	text-transform: uppercase;
+	background: #ab7a5f;
+	color: #eaded7;
+	padding: 0.4rem 0.8rem;
+	letter-spacing: 0.1rem;
+	display: inline-block;
+	font-weight: 400;
+	transition: all 0.3s linear;
+	font-size: 0.875rem;
+	cursor: pointer;
+	box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+	border-radius: 0.25rem;
+	border-color: transparent;
+}
+.btn:hover {
+	background: #c5a491;
+	color: #000;
+}
+@media screen and (max-width: 991px) {
+	.design-cont {
+		width: 90%;
+		margin: 3rem auto;
+		flex-direction: column-reverse;
+	}
+	.design-left {
+		width: 90%;
+		margin: auto;
+	}
+	.design-left h2{
+		font-size: 2.5rem;
+	}
+	.design-right{
+		width: 100%;
+		display: none;
+	}
+	.design-left p {
+		font-size: 1rem;
+		line-height: 1.7rem;
+		margin-right: 0;
+	}
+
+}
